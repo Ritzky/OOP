@@ -49,7 +49,6 @@ public class User{
         }
 
         else{
-            System.out.println("error");
         }
     }
 
@@ -59,7 +58,6 @@ public class User{
         }
 
         else{
-            System.out.println("error");
         }
     }
 
@@ -72,7 +70,6 @@ public class User{
         for(int i=0; i < length; i++){
             Inventory invent1 = inventories[i];
             if(invent1 == null){
-                System.out.println("error");
             }
             else{
                 int balance = invent1.getBalance();
