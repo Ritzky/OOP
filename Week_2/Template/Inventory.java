@@ -3,11 +3,11 @@
 public class Inventory{
     private int balance;
 
-    public Account(){
+    public Inventory(){
         this.balance=0;
     }    
 
-    public Account(int balance){
+    public Inventory(int balance){
         this.balance = balance;
     }
 
