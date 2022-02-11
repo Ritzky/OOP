@@ -3,7 +3,7 @@ name. The constructor must also initialize its Account field to a default Accoun
 are not allowed to define any new fields or methods in Client. Remember you can
 always modify the inheritance hierarchy.
 There are two special types of ShopKeeper, FirstTime and BigCorp, implemented by the classes
-BigCorpShopKeeper and FirstTimeShopKeeper.
+BigCorp and FirstTimeShopKeeper.
 
 R2 (1 mark) FirstTime shop keepers behave just like regular shopkeepers, but they have an additional interger attribute representing their New Company ID (NID) you must implement
 constructor to make sure firstime can be instantiated, taking their name and NID as
